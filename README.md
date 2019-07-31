@@ -1,6 +1,6 @@
 flight-Simulator-Interp for the flight gear simulator.
 
-![setting](https://user-images.githubusercontent.com/45912737/62188050-e79dcc00-b373-11e9-9725-3c87882f0f2c.png)
+Interperter that flight plain by given script.
 
 Implement Two arguments in the Settings -> Additional Settings box:
 --generic=socket,out,10,XXX.XXX.XXX.XXX,5400,tcp,generic_small -
@@ -8,6 +8,7 @@ the i.p. of computer running interpreter
 (Put the included generic small xml file in the FlightGear installation folder "data/Protocol").   
 --telnet=socket,in,10,XXX.XXX.XXX.XXX,5402,tcp -
 the i.p. of computer running FlightGear
+
 
 The interpreter support command-line input and file input.
 
@@ -18,10 +19,6 @@ Each argument sent via running the exexcutable file is read and executed command
 The interpreter lexes the input, than parses it. In case the command and paramaters is valid, it will be executed immediately.
 Each command is represented by a Command object that implements the Command abstract class.
 while the interpreter runs, another thread runs in the background updating the symbol table with current values read from FlightGear.
-
-![flight](https://user-images.githubusercontent.com/45912737/62192754-e1f9b380-b37e-11e9-9e47-df0173aed0ab.png)
-
-The interperter flight the plain by the given script.
 
 NOTE: 
 - The interpreter gets "flightGear" valid arguments only
