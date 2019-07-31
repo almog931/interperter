@@ -1,5 +1,7 @@
 flight-Simulator-Interp for the flight gear simulator.
 
+![setting](https://user-images.githubusercontent.com/45912737/62188050-e79dcc00-b373-11e9-9725-3c87882f0f2c.png)
+
 Implement Two arguments in the Settings -> Additional Settings box:
 --generic=socket,out,10,XXX.XXX.XXX.XXX,5400,tcp,generic_small -
 the i.p. of computer running interpreter
