@@ -19,6 +19,10 @@ The interpreter lexes the input, than parses it. In case the command and paramat
 Each command is represented by a Command object that implements the Command abstract class.
 while the interpreter runs, another thread runs in the background updating the symbol table with current values read from FlightGear.
 
+![flight](https://user-images.githubusercontent.com/45912737/62192754-e1f9b380-b37e-11e9-9e47-df0173aed0ab.png)
+
+The interperter flight the plain by the given script.
+
 NOTE: 
 - The interpreter gets "flightGear" valid arguments only
 - Make sure you run our Interpreter before running FlightGear
