@@ -1,6 +1,7 @@
 flight-Simulator-Interp for the flight gear simulator.
 
 Interperter that flight plain by given script.
+![flight](https://user-images.githubusercontent.com/45912737/62192754-e1f9b380-b37e-11e9-9e47-df0173aed0ab.png)
 
 Implement Two arguments in the Settings -> Additional Settings box:
 --generic=socket,out,10,XXX.XXX.XXX.XXX,5400,tcp,generic_small -
@@ -9,6 +10,7 @@ the i.p. of computer running interpreter
 --telnet=socket,in,10,XXX.XXX.XXX.XXX,5402,tcp -
 the i.p. of computer running FlightGear
 
+![setting](https://user-images.githubusercontent.com/45912737/62188050-e79dcc00-b373-11e9-9725-3c87882f0f2c.png)
 
 The interpreter support command-line input and file input.
 
